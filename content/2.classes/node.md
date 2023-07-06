@@ -14,17 +14,17 @@ new Magmastream.Node(options: NodeOptions)
 
 ## Properties
 
-| Options         | Type    | Description                                                   |
-| --------------- | :------ | ------------------------------------------------------------- |
-| `host`          | string  | The host for the node.                                        |
-| `identifier`    | string  | The identifier for the node.                                  |
-| `password`      | string  | The password for the node.                                    |
-| `port`          | number  | The port for the node.                                        |
-| `retryAmount`   | number  | How many tries connect to the node if connection failed.      |
-| `retryDelay`    | number  | Timeout to retry connecting to the node if connection failed. |
-| `resumeKey`     | string  | Secret key to resume sessions.                                |
-| `resumeTimeout` | number  | How load to wait before resuming.                             |
-| `secure`        | boolean | Whether the host uses SSL.                                    |
+| Options         | Type      | Description                                                   |
+| --------------- | :-------- | ------------------------------------------------------------- |
+| `host`          | `string`  | The host for the node.                                        |
+| `identifier`    | `string`  | The identifier for the node.                                  |
+| `password`      | `string`  | The password for the node.                                    |
+| `port`          | `number`  | The port for the node.                                        |
+| `retryAmount`   | `number`  | How many tries connect to the node if connection failed.      |
+| `retryDelay`    | `number`  | Timeout to retry connecting to the node if connection failed. |
+| `resumeKey`     | `string`  | Secret key to resume sessions.                                |
+| `resumeTimeout` | `number`  | How load to wait before resuming.                             |
+| `secure`        | `boolean` | Whether the host uses SSL.                                    |
 
 ::
 ::

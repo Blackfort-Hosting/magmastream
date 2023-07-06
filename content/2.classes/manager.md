@@ -14,14 +14,14 @@ new Magmastream.Manager(options: ManagerOptions)
 
 ## Properties
 
-| Options        | Type     | Description                                                           |
-| -------------- | :------- | --------------------------------------------------------------------- |
-| `autoPlay`     | boolean  | Whether players should automatically play the next song.              |
-| `cliendId`     | string   | The client ID to use.                                                 |
-| `nodes`        | array    | The array of nodes to connect to.                                     |
-| `plugins`      | array    | An array of plugins to use.                                           |
-| `shards`       | number   | The shard count.                                                      |
-| `trackPartial` | string[] | An array of track properties to keep. `track` will always be present. |
+| Options        | Type       | Description                                                           |
+| -------------- | :--------- | --------------------------------------------------------------------- |
+| `autoPlay`     | `boolean`  | Whether players should automatically play the next song.              |
+| `cliendId`     | `string`   | The client ID to use.                                                 |
+| `nodes`        | `array`    | The array of nodes to connect to.                                     |
+| `plugins`      | `array`    | An array of plugins to use.                                           |
+| `shards`       | `number`   | The shard count.                                                      |
+| `trackPartial` | `string[]` | An array of track properties to keep. `track` will always be present. |
 
 ## Methods
 
@@ -31,7 +31,7 @@ Function to send data to the websocket.
 
 | Parameter | Type                           |
 | --------- | :----------------------------- |
-| `id`      | string                         |
+| `id`      | `string`                       |
 | `payload` | [Payload](../typedefs/payload) |
 
 ::
