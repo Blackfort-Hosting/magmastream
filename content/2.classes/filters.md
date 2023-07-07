@@ -1,6 +1,6 @@
  <!-- todo: Sort in alphabetical order. By methods -->
 
-## Filters
+# Filters
 
 ### Constructor
 

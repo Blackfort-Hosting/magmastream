@@ -1,4 +1,4 @@
-## Manager
+# Manager
 
 Magmastream's Manager, the ultimate command post for unleashing the power of Lavalink like a boss, guaranteed to make you go "Whoa!" like the most mind-blowing meme.
 
