@@ -2,49 +2,11 @@
 
 ### Overview
 
-| Properties            |
-| --------------------- |
-| [byRemote](#byremote) |
-| [code](#code)         |
-| [guildId](#guildid)   |
-| [op](#op)             |
-| [reason](#reason)     |
-| [type](#type)         |
-
-### Properties
-
-#### • byRemote
-
-> | Type    |
-> | ------- |
-> | boolean |
-
-#### • code
-
-> | Type   |
-> | ------ |
-> | number |
-
-#### • guildId
-
-> | Type   |
-> | ------ |
-> | string |
-
-#### • op
-
-> | Value |
-> | ----- |
-> | event |
-
-#### • reason
-
-> | Type   |
-> | ------ |
-> | string |
-
-#### • type
-
-> | Value                |
-> | -------------------- |
-> | WebSocketClosedEvent |
+| Properties | Type                   | Value   |
+| ---------- | ---------------------- | ------- |
+| `byRemote` | `boolean`              |         |
+| `code`     | `number`               |         |
+| `guildId`  | `string`               |         |
+| `op`       |                        | `event` |
+| `reason`   | `string`               |         |
+| `type`     | `WebSocketClosedEvent` |         |

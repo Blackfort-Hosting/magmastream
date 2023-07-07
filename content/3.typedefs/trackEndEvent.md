@@ -2,43 +2,13 @@
 
 ### Overview
 
-| Properties          |
-| ------------------- |
-| [guildId](#guildid) |
-| [op](#op)           |
-| [reason](#reason)   |
-| [track](#track)     |
-| [type](#type)       |
-
-#### • guildId
-
-> | Type   |
-> | ------ |
-> | string |
-
-#### • op
-
-> | Value |
-> | ----- |
-> | event |
-
-#### • reason
-
-> | Type                              |
-> | --------------------------------- |
-> | [TrackEndReason](#trackendreason) |
-
-#### • track
-
-> | Type   |
-> | ------ |
-> | string |
-
-#### • type
-
-> | Value         |
-> | ------------- |
-> | TrackEndEvent |
+| Properties | Type                              | Value   |
+| ---------- | --------------------------------- | ------- |
+| `guildId`  | `string`                          |         |
+| `op`       |                                   | `event` |
+| `reason`   | [TrackEndReason](#trackendreason) |         |
+| `track`    | `string`                          |         |
+| `type`     | `TrackEndEvent`                   |         |
 
 ### TrackEndReason
 

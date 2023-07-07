@@ -2,38 +2,14 @@
 
 ### Overview
 
-| Properties              |
-| ----------------------- |
-| [exception](#exception) |
-| [guildId](#guildid)     |
-| [op](#op)               |
-| [type](#type)           |
+| Properties  | Type                    | Value                 |
+| ----------- | ----------------------- | --------------------- |
+| `exception` | [Exception](#exception) |                       |
+| `guildId`   | `string`                |                       |
+| `op`        |                         | `event`               |
+| `type`      |                         | `TrackExceptionEvent` |
 
-#### • exception
-
-> | Type                     |
-> | ------------------------ |
-> | [Exception](#_exception) |
-
-#### • guildId
-
-> | Type   |
-> | ------ |
-> | string |
-
-#### • op
-
-> | Value |
-> | ----- |
-> | event |
-
-#### • type
-
-> | Value               |
-> | ------------------- |
-> | TrackExceptionEvent |
-
-### \_Exception
+### Exception
 
 > | Properties | Type                  |
 > | ---------- | --------------------- |
