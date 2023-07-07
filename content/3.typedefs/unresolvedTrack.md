@@ -2,11 +2,11 @@
 
 ### Overview
 
-| Properties            | Methods             |
-| --------------------- | :------------------ |
-| [author](#author)     | [resolve](#resolve) |
-| [duration](#duration) |                     |
-| [title](#title)       |                     |
+| Properties                     | Methods             |
+| ------------------------------ | :------------------ |
+| [author](#optional-author)     | [resolve](#resolve) |
+| [duration](#optional-duration) |                     |
+| [title](#title)                |                     |
 
 ### Properties
 

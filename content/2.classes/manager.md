@@ -39,24 +39,24 @@ Function to send data to the websocket.
 
 ## Overview
 
-| Properties                        | Methods                               | Events                            |
-| --------------------------------- | :------------------------------------ | --------------------------------- |
-| [nodes](#nodes)                   | [create](#create)                     | [nodeCreate](#nodecreate)         |
-| [options](#options)               | [createNode](#createnode)             | [nodeDestroy](#nodedestroy)       |
-| [players](#players)               | [decodeTrack](#decodetrack)           | [nodeConnect](#nodeconnect)       |
-| [leastLoadNodes](#leastloadnodes) | [decodeTracks](#decodetracks)         | [nodeReconnect](#nodereconnect)   |
-| [leastUsedNodes](#leastusednodes) | [destroy](#destroy)                   | [nodeDisconnect](#nodedisconnect) |
-|                                   | [destroyNode](#sdestroynode)          | [nodeError](#nodeerror)           |
-|                                   | [get](#get)                           | [nodeRaw](#noderaw)               |
-|                                   | [init](#init)                         | [playerCreate](#playercreate)     |
-|                                   | [search](#search)                     | [playerDestroy](#playerdestroy)   |
-|                                   | [updateVoiceState](#updatevoicestate) | [queueEnd](#queueend)             |
-|                                   |                                       | [playerMove](#playermove)         |
-|                                   |                                       | [trackStart](#trackstart)         |
-|                                   |                                       | [trackEnd](#trackend)             |
-|                                   |                                       | [trackStuck](#trackstuck)         |
-|                                   |                                       | [trackError](#trackerror)         |
-|                                   |                                       | [socketClosed](#socketclosed)     |
+| Properties                            | Methods                               | Events                            |
+| ------------------------------------- | :------------------------------------ | --------------------------------- |
+| [nodes](#nodes)                       | [create](#create)                     | [nodeCreate](#nodecreate)         |
+| [options](#options)                   | [createNode](#createnode)             | [nodeDestroy](#nodedestroy)       |
+| [players](#players)                   | [decodeTrack](#decodetrack)           | [nodeConnect](#nodeconnect)       |
+| [leastLoadNodes](#get-leastloadnodes) | [decodeTracks](#decodetracks)         | [nodeReconnect](#nodereconnect)   |
+| [leastUsedNodes](#get-leastusednodes) | [destroy](#destroy)                   | [nodeDisconnect](#nodedisconnect) |
+|                                       | [destroyNode](#sdestroynode)          | [nodeError](#nodeerror)           |
+|                                       | [get](#get)                           | [nodeRaw](#noderaw)               |
+|                                       | [init](#init)                         | [playerCreate](#playercreate)     |
+|                                       | [search](#search)                     | [playerDestroy](#playerdestroy)   |
+|                                       | [updateVoiceState](#updatevoicestate) | [queueEnd](#queueend)             |
+|                                       |                                       | [playerMove](#playermove)         |
+|                                       |                                       | [trackStart](#trackstart)         |
+|                                       |                                       | [trackEnd](#trackend)             |
+|                                       |                                       | [trackStuck](#trackstuck)         |
+|                                       |                                       | [trackError](#trackerror)         |
+|                                       |                                       | [socketClosed](#socketclosed)     |
 
 ### Events
 

@@ -36,7 +36,7 @@ new Magmastream.Node(options: NodeOptions)
 | [options](#options)     | [send](#send)       |
 | [socket](#socket)       |                     |
 | [stats](#stats)         |                     |
-| [connected](#connected) |                     |
+| [connected](#get-connected) |                     |
 
 ### Properties
 
