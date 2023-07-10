@@ -1,27 +1,21 @@
 # SearchResult
 
-exception
-loadType
-playlist
-tracks
-
 ### Overview
 
-| Properties  | Type                                     | Description                                      |
-| ----------- | ---------------------------------------- | ------------------------------------------------ |
-| `exception` | `{ message: string , severity: string }` | The exception when searching if one.             |
-| `loadType`  | [LoadType](#loadtype)                    | The load type of the result.                     |
-| `playlist`  | [PlaylistInfo](#playlistinfo)            | Playlist info if load type is `PLAYLIST_LOADED`. |
-| `tracks`    | [Track](../typedefs/track)`[]`           | The array of tracks from the result.             |
+| Properties | Type                           | Description                                                  |
+| ---------- | ------------------------------ | ------------------------------------------------------------ |
+| `loadType` | [LoadType](#loadtype)          | The load type of the result.                                 |
+| `tracks`   | [`Track[]`](../typedefs/track) | If load type is `track` or `search`, return array of tracks. |
+| `playlist` | [PlaylistData](#playlistdata)  | If load type is `playlist`, the resulting playlist data.     |
 
 ### LoadType
 
-> Value: `TRACK_LOADED` `PLAYLIST_LOADED` `SEARCH_RESULT` `LOAD_FAILED` `NO_MATCHES`
+> Value: `track` `playlist` `search` `empty` `error`
 
-### PlaylistInfo
+### PlaylistData
 
-| Properties      | Type                       | Description                     |
-| --------------- | -------------------------- | ------------------------------- |
-| `duration`      | `number`                   | `The duration of the playlist.` |
-| `name`          | `string`                   | `The playlist name.`            |
-| `selectedTrack` | [Track](../typedefs/track) | `The playlist selected track.`  |
+| Properties | Type                           | Description                             |
+| ---------- | ------------------------------ | --------------------------------------- |
+| `name`     | `string`                       | `The playlist name.`                    |
+| `duration` | `number`                       | `The length of the playlist.`           |
+| `tracks`   | [`Track[]`](../typedefs/track) | `An array of tracks from the playlist.` |

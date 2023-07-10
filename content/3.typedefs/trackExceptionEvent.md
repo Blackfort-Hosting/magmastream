@@ -19,4 +19,4 @@
 
 ### Severity
 
-> **Value:** `COMMON` `SUSPICIOUS` `FAULT`
+> **Value:** `common` `suspicious` `fault`

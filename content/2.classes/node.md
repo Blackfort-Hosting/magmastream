@@ -12,30 +12,30 @@ new Magmastream.Node(options: NodeOptions)
 
 ## Properties
 
-| Options         | Type      | Description                                                   |
-| --------------- | :-------- | ------------------------------------------------------------- |
-| `host`          | `string`  | The host for the node.                                        |
-| `identifier`    | `string`  | The identifier for the node.                                  |
-| `password`      | `string`  | The password for the node.                                    |
-| `port`          | `number`  | The port for the node.                                        |
-| `retryAmount`   | `number`  | How many tries connect to the node if connection failed.      |
-| `retryDelay`    | `number`  | Timeout to retry connecting to the node if connection failed. |
-| `resumeKey`     | `string`  | Secret key to resume sessions.                                |
-| `resumeTimeout` | `number`  | How load to wait before resuming.                             |
-| `secure`        | `boolean` | Whether the host uses SSL.                                    |
+| Options         | Type      | Description                                                                 |
+| --------------- | :-------- | --------------------------------------------------------------------------- |
+| `host`          | `string`  | The host for the node.                                                      |
+| `identifier`    | `string`  | The identifier for the node.                                                |
+| `password`      | `string`  | The password for the node.                                                  |
+| `port`          | `number`  | The port for the node.                                                      |
+| `retryAmount`   | `number`  | How many tries connect to the node if connection failed.                    |
+| `retryDelay`    | `number`  | Timeout to retry connecting to the node if connection failed.               |
+| `resumeStatus`  | `boolean` | Whether to resume the previous session. If false music will halt instantly. |
+| `resumeTimeout` | `number`  | How load to wait before resuming.                                           |
+| `secure`        | `boolean` | Whether the host uses SSL.                                                  |
 
 ::
 ::
 
 ## Overview
 
-| Properties              | Methods             |
-| ----------------------- | :------------------ |
-| [calls](#calls)         | [connect](#connect) |
-| [manager](#manager)     | [destroy](#destroy) |
-| [options](#options)     | [send](#send)       |
-| [socket](#socket)       |                     |
-| [stats](#stats)         |                     |
+| Properties                  | Methods             |
+| --------------------------- | :------------------ |
+| [calls](#calls)             | [connect](#connect) |
+| [manager](#manager)         | [destroy](#destroy) |
+| [options](#options)         |                     |
+| [socket](#socket)           |                     |
+| [stats](#stats)             |                     |
 | [connected](#get-connected) |                     |
 
 ### Properties
@@ -106,13 +106,3 @@ new Magmastream.Node(options: NodeOptions)
 > | Description                                          | Returns |
 > | ---------------------------------------------------- | ------- |
 > | Destroys the Node and all players connected with it. | `void`  |
-
-#### • send()
-
-> Sends data to the Node.
->
-> Returns: `Promise<boolean>`
->
-> | Parameter | Type    |
-> | --------- | :------ |
-> | data      | unknown |

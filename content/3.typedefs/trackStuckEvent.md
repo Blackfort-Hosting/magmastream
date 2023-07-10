@@ -4,7 +4,7 @@
 
 | Properties    | Type     | Value             |
 | ------------- | -------- | ----------------- |
-| `guildId`     | `string` |                   |
 | `op`          |          | `event`           |
+| `guildId`     | `string` |                   |
 | `thresholdMs` | `number` |                   |
 | `type`        |          | `TrackStuckEvent` |

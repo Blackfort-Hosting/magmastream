@@ -12,4 +12,4 @@
 
 ### TrackEndReason
 
-> **Value:** `FINISHED` `LOAD_FAILED` `STOPPED` `REPLACED` `CLEANUP`
+> **Value:** `finished` `loadFailed` `stopped` `replaced` `cleanup`

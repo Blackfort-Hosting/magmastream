@@ -4,7 +4,7 @@
 
 | Options     | Type                                             |
 | ----------- | :----------------------------------------------- |
+| `op`        | `VoiceUpdate`                                    |
 | `event`     | [VoiceEvent](../typedefs/voicepacket#voiceevent) |
 | `guildId`   | `string`                                         |
-| `op`        | `VoiceUpdate`                                    |
 | `sessionId` | `string`                                         |

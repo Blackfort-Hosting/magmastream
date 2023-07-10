@@ -2,10 +2,11 @@
 
 ### Overview
 
-| Properties | Type                            |
-| ---------- | ------------------------------- |
-| `info`     | [TrackDataInfo](#trackdatainfo) |
-| `track`    | `string`                        |
+| Properties   | Type                            | Description                                |
+| ------------ | ------------------------------- | ------------------------------------------ |
+| `encoded`    | `string`                        | The base64 encoded track.                  |
+| `info`       | [TrackDataInfo](#trackdatainfo) | The detailed information of the track.     |
+| `pluginInfo` | `object`                        | Additional track info provided by plugins. |
 
 ## TrackDataInfo
 
@@ -18,3 +19,5 @@
 | `length`     | `number`  |
 | `title`      | `string`  |
 | `uri`        | `string`  |
+| `artworkUrl` | `string`  |
+| `sourceName` | `string`  |

@@ -14,6 +14,8 @@
 | [title](#title)           |                                           |
 | [track](#track)           |                                           |
 | [uri](#uri)               |                                           |
+| [artworkUrl](#artworkurl) |                                           |
+| [sourceName](#sourcename) |                                           |
 
 ### Properties
 
@@ -92,6 +94,22 @@
 #### • uri
 
 > The uri of the track.
+>
+> | Type   |
+> | ------ |
+> | string |
+
+#### • artworkUrl
+
+> The image of the track.
+>
+> | Type   |
+> | ------ |
+> | string |
+
+#### • sourceName
+
+> The platform name that the track is from.
 >
 > | Type   |
 > | ------ |
