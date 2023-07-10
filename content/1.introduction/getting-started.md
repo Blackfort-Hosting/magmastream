@@ -11,7 +11,7 @@ npm install magmastream
 ::
 
 ::alert{type="success"}
-✅ Magmastream **only** support lavalink verion 4.
+✅ Magmastream **only** support lavalink version 4.
 ::
 
 ## Basics
