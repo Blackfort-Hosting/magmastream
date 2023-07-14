@@ -42,7 +42,7 @@ new Magmastream.Filters(player: Player)
 | `setDistortion`              | [DistortionOptions](#distortionoptions) | `this`          | Set the distortion effect.          |
 | `clearFilters`               |                                         | `Promise<this>` | Clear the filters.                  |
 | **Optional** `updateFilters` |                                         | `Promise<this>` | Update the filters.                 |
-| `getFilterStatus`            |                                         | `boolean`       | The status of the specified filter. |
+| `getFilterStatus`            | [availableFilters](#availablefilters)   | `boolean`       | The status of the specified filter. |
 
 ### Band
 
@@ -94,3 +94,18 @@ new Magmastream.Filters(player: Player)
 > | tanScale   | number |
 > | offset     | number |
 > | scale      | number |
+
+### availableFilters
+
+> | Properties |
+> | ---------- |
+> | bassboost  |
+> | distort    |
+> | eightD     |
+> | karaoke    |
+> | nightcore  |
+> | slowmo     |
+> | soft       |
+> | treblebass |
+> | tv         |
+> | vaporwave  |
