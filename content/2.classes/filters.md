@@ -23,25 +23,26 @@ new Magmastream.Filters(player: Player)
 
 ## Overview
 
-| Methods                      | Type                                    | Description                   |
-| ---------------------------- | :-------------------------------------- | ----------------------------- |
-| `eightD`                     |                                         | Enable eight-dimension audio. |
-| `bassBoost`                  |                                         | Enable bass boost filter.     |
-| `nightcore`                  |                                         | Enable nightcore filter.      |
-| `slowmo`                     |                                         | Enable slowmo filter.         |
-| `soft`                       |                                         | Enable soft filter.           |
-| `tv`                         |                                         | Enable tv filter.             |
-| `trebleBass`                 |                                         | Enable treble bass filter.    |
-| `vaporwave`                  |                                         | Enable vaporwave filter.      |
-| `distort`                    |                                         | Enable distortion filter.     |
-| `setEqualizer`               | [`Band[]`](#band)                       | Set custom equalizer bands.   |
-| `setKaraoke`                 | [KaraokeOptions](#karaokeoptions)       | Set karaoke filter.           |
-| `setTimescale`               | [TimescaleOptions](#timescaleoptions)   | Set the timescale.            |
-| `setVibrato`                 | [VibratoOptions](#vibratooptions)       | Set the vibrato effect.       |
-| `setRotation`                | [RotationOptions](#rotationoptions)     | Set the rotation effect.      |
-| `setDistortion`              | [DistortionOptions](#distortionoptions) | Set the distortion effect.    |
-| `clearFilters`               |                                         | Clear the filters.            |
-| **Optional** `updateFilters` |                                         | Update the filters.           |
+| Methods                      | Type                                    | Returns         | Description                         |
+| ---------------------------- | :-------------------------------------- | --------------- | ----------------------------------- |
+| `eightD`                     |                                         | `this`          | Enable eight-dimension audio.       |
+| `bassBoost`                  |                                         | `this`          | Enable bass boost filter.           |
+| `nightcore`                  |                                         | `this`          | Enable nightcore filter.            |
+| `slowmo`                     |                                         | `this`          | Enable slowmo filter.               |
+| `soft`                       |                                         | `this`          | Enable soft filter.                 |
+| `tv`                         |                                         | `this`          | Enable tv filter.                   |
+| `trebleBass`                 |                                         | `this`          | Enable treble bass filter.          |
+| `vaporwave`                  |                                         | `this`          | Enable vaporwave filter.            |
+| `distort`                    |                                         | `this`          | Enable distortion filter.           |
+| `setEqualizer`               | [`Band[]`](#band)                       | `this`          | Set custom equalizer bands.         |
+| `setKaraoke`                 | [KaraokeOptions](#karaokeoptions)       | `this`          | Set karaoke filter.                 |
+| `setTimescale`               | [TimescaleOptions](#timescaleoptions)   | `this`          | Set the timescale.                  |
+| `setVibrato`                 | [VibratoOptions](#vibratooptions)       | `this`          | Set the vibrato effect.             |
+| `setRotation`                | [RotationOptions](#rotationoptions)     | `this`          | Set the rotation effect.            |
+| `setDistortion`              | [DistortionOptions](#distortionoptions) | `this`          | Set the distortion effect.          |
+| `clearFilters`               |                                         | `Promise<this>` | Clear the filters.                  |
+| **Optional** `updateFilters` |                                         | `Promise<this>` | Update the filters.                 |
+| `getFilterStatus`            |                                         | `boolean`       | The status of the specified filter. |
 
 ### Band
 
