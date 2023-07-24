@@ -16,7 +16,7 @@ new Magmastream.Player(options: PlayerOptions)
 | -------------- | :-------- | ---------------------------------------- |
 | `guild`        | `string`  | The guild the Player belongs to.         |
 | `node`         | `string`  | The node the Player uses.                |
-| `selfDeaf`     | `boolean` | If the player should deaf itself.        |
+| `selfDeafen`   | `boolean` | If the player should deaf itself.        |
 | `selfMute`     | `boolean` | If the player should mute itself.        |
 | `textChannel`  | `string`  | The text channel the Player belongs to.  |
 | `voiceChannel` | `string`  | The voice channel the Player belongs to. |
