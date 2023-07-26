@@ -208,7 +208,8 @@ Function to send data to the websocket.
 >
 > | Parameter | Type                        |
 > | --------- | :-------------------------- |
-> | player    | [Player](../classes/player) |
+> | oldPlayer | [Player](../classes/player) |
+> | newPlayer | [Player](../classes/player) |
 
 ### Properties
 
