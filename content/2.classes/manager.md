@@ -22,7 +22,7 @@ new Magmastream.Manager(options: ManagerOptions)
 | `plugins`               | `array`    | An array of plugins to use.                                           |
 | `shards`                | `number`   | The shard count.                                                      |
 | `trackPartial`          | `string[]` | An array of track properties to keep. `track` will always be present. |
-| `defaultSearchPlatform` | `string`   | The search platform to use query songs.                               |
+| `defaultSearchPlatform` | `string`   | The search platform to use to query songs.                            |
 
 ## Methods
 
